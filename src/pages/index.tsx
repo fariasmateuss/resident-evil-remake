@@ -1,17 +1,32 @@
 import React from 'react'
+
 import Head from 'next/head'
+import Link from 'next/link'
+
+import Section from '../components/Section'
+import Option from '../components/Option'
+
+import { Wrapper } from '../styles/pages/Home'
 
 const Home: React.FC = () => {
   return (
-    <div>
+    <Wrapper>
       <Head>
-        <title>Create Next App</title>
+        <title>Getting started</title>
       </Head>
 
-      <main>
-        <h1>Hello, World!</h1>
-      </main>
-    </div>
+      <Section title="Choose an option to start" />
+
+      <Link href="/costume">
+        <a>
+          <Option title="Story" />
+        </a>
+      </Link>
+
+      <Option title="Online Story" />
+      <Option title="Options" />
+      <Option title="Exit" />
+    </Wrapper>
   )
 }
 
