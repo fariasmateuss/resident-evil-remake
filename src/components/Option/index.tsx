@@ -10,7 +10,7 @@ interface Props {
 const Option: React.FC<Props> = ({ title, changeCostume }) => {
   return (
     <Options>
-      <List onClick={changeCostume}>{title}</List>
+      <List onMouseOver={changeCostume}>{title}</List>
     </Options>
   )
 }
