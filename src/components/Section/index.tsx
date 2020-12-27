@@ -2,7 +2,7 @@ import React from 'react'
 
 import { Title } from './styles'
 
-type Props = {
+interface Props {
   title: string
 }
 

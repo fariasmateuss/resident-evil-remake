@@ -2,7 +2,7 @@ import React from 'react'
 
 import { Options, List } from './styles'
 
-type Props = {
+interface Props {
   title: string
   changeCostume?: () => void
 }
