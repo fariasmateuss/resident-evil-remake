@@ -10,8 +10,10 @@
   "dependencies": {
     "next": "10.0.3",
     "next-images": "^1.6.2",
+    "polished": "^4.0.5",
     "react": "17.0.1",
     "react-dom": "17.0.1",
+    "react-icons": "^4.1.0",
     "styled-components": "^5.2.1"
   },
   "devDependencies": {

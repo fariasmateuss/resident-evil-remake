@@ -8,7 +8,9 @@ export default createGlobalStyle`
   }
 
   a {
+    color: ${({ theme }) => theme.colors.text};
     text-decoration: none;
+    cursor: pointer;
   }
 
   body {
