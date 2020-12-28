@@ -4,6 +4,7 @@ import Head from 'next/head'
 
 import Section from '../components/Section'
 import Option from '../components/Option'
+import Header from '../components/Header'
 
 import { Wrapper } from '../styles/pages/Costume'
 
@@ -24,7 +25,9 @@ const Costume: React.FC = () => {
         <title>Costume</title>
       </Head>
 
-      <Section title="Costume" />
+      <Header returnToHome />
+
+      <Section title="Costume" backToHome />
 
       <Option changeCostume={() => setCostume(jacket)} title="Jacket" />
       <Option
