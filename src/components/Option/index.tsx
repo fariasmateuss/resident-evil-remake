@@ -2,12 +2,12 @@ import React from 'react'
 
 import { Options, List } from './styles'
 
-interface Props {
+interface OptionProps {
   title: string
   changeCostume?: () => void
 }
 
-const Option: React.FC<Props> = ({ title, changeCostume }) => {
+const Option: React.FC<OptionProps> = ({ title, changeCostume }) => {
   return (
     <Options>
       <List onMouseOver={changeCostume}>{title}</List>

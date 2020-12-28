@@ -2,11 +2,12 @@ import React from 'react'
 
 import { Title } from './styles'
 
-interface Props {
+interface SectionProps {
   title: string
+  backToHome?: boolean
 }
 
-const Section: React.FC<Props> = ({ title }) => {
+const Section: React.FC<SectionProps> = ({ title }) => {
   return (
     <div>
       <Title>{title}</Title>
