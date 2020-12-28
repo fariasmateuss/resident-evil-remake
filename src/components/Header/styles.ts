@@ -9,7 +9,7 @@ export const Wrapper = styled.a`
     display: flex;
     align-items: center;
     position: absolute;
-    align-items: center;
+    padding: 10px;
     right: 10%;
 
     &:hover {
